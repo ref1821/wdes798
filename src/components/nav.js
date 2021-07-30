@@ -7,7 +7,7 @@ function Navigation(props) {
         <h1 className="title">W-DES</h1>
         <div className="nav">
             <nav>
-                <NavLink to="/">
+                <NavLink to="/home">
                     Home
                 </NavLink>
                 <NavLink to="/work">
