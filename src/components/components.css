@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    margin-top: -22px;
+  }
+  
+  .title{
+    grid-column: 1/2;
+    background-color: #341f97;
+    padding: 15px;
+    padding-top:25px;
+    color: white;
+    padding-bottom: 14px;
+    
+  }
+  .nav{
+    grid-column:2/7;
+    background-color: #341f97; 
+    text-align: right;
+    padding:30px;
+  }
+  .nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    
+  }
+  .nav a:hover{
+    color: #00d2d3;
+    border: 3px solid #00d2d3;
+    border-radius: 10px;
+  }
+  

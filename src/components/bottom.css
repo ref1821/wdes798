@@ -1,0 +1,54 @@
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    
+}
+.contact{
+    text-align: center;
+    background-color: #341f97;
+    color: white;
+    
+}
+.work{
+    text-align: center;
+    background-color: #341f97;
+    color: white;
+    padding-bottom: 24px;
+}
+.social{
+    text-align: center;
+    background-color: #341f97;
+    color: white;
+    
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.work a{
+    color: white;
+    text-decoration: none;
+}
+.social a{
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover{
+    color: #00d2d3;
+}
+.work a:hover{
+    color: #00d2d3;
+}
+.social a:hover{
+    color: #00d2d3;
+}
+.bottom{
+    grid-column:1/4;
+    text-align: center;
+    background-color: #222f3e;
+    color: white;
+    padding: 30px;
+    margin-top: -16px;
+    margin-bottom: -1px;
+}

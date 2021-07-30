@@ -1,0 +1,11 @@
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:75vh;
+    align-items: center;
+}
+.temporary{
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    grid-column:1/7;
+}
