@@ -17,7 +17,7 @@ function App() {
           <Route path="/about" exact>
             <About></About>
           </Route>
-          <Route path="/"exact>
+          <Route path="/">
             <Home></Home>
           </Route>
         </Switch>
