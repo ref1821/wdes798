@@ -7,13 +7,13 @@ function Navigation(props) {
         <h1 className="title">W-DES</h1>
         <div className="nav">
             <nav>
-                <NavLink to="/home">
+                <NavLink to="/wdes798/home">
                     Home
                 </NavLink>
-                <NavLink to="/work">
+                <NavLink to="/wdes798/work">
                     Work
                 </NavLink>
-                <NavLink to="/about">
+                <NavLink to="/wdes798/about">
                     About
                 </NavLink>
             </nav>
