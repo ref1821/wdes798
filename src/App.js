@@ -14,10 +14,19 @@ function App() {
           <Route path="/work" exact>
             <Work></Work>
           </Route>
+          <Route path="/wdes798/work" exact>
+            <Work></Work>
+          </Route>
           <Route path="/about" exact>
             <About></About>
           </Route>
+          <Route path="/wdes798/about" exact>
+            <About></About>
+          </Route>
           <Route path="/home">
+            <Home></Home>
+          </Route>
+          <Route path="/wdes798/home">
             <Home></Home>
           </Route>
           <Route path="/">
